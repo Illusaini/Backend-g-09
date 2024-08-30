@@ -28,3 +28,11 @@ find the data where student has age =22 and marks=90
 find the student has marks ≥80 and age≥18
 
 find student those who grade=A+
+
+#task4
+
+use $and, $or, $nor ,$not
+
+#task 5
+
+use $exists, $type

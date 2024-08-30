@@ -184,3 +184,110 @@
 //     grade: 'A'
 //   }
 // ]
+// chitkara> db.student.find({ age: { $type: "number" }})
+// [
+//   {
+//     _id: ObjectId('66cebee559148545fd2710bd'),
+//     name: 'Jack',
+//     age: 20,
+//     marks: 85,
+//     subject: 'Mathematics',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710be'),
+//     name: 'Bob',
+//     age: 22,
+//     marks: 78,
+//     subject: 'Physics',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'B'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710bf'),
+//     name: 'Nav',
+//     age: 21,
+//     marks: 92,
+//     subject: 'Chemistry',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A+'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710c0'),
+//     name: 'Illu',
+//     age: 23,
+//     marks: 88,
+//     subject: 'Biology',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'B+'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710c1'),
+//     name: 'Eva',
+//     age: 19,
+//     marks: 95,
+//     subject: 'Computer Science',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A'
+//   }
+// ]
+
+// chitkara> db.student.find({ grade: { $type: "string" }})
+// [
+//   {
+//     _id: ObjectId('66cebee559148545fd2710bd'),
+//     name: 'Jack',
+//     age: 20,
+//     marks: 85,
+//     subject: 'Mathematics',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710be'),
+//     name: 'Bob',
+//     age: 22,
+//     marks: 78,
+//     subject: 'Physics',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'B'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710bf'),
+//     name: 'Nav',
+//     age: 21,
+//     marks: 92,
+//     subject: 'Chemistry',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A+'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710c0'),
+//     name: 'Illu',
+//     age: 23,
+//     marks: 88,
+//     subject: 'Biology',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'B+'
+//   },
+//   {
+//     _id: ObjectId('66cebee559148545fd2710c1'),
+//     name: 'Eva',
+//     age: 19,
+//     marks: 95,
+//     subject: 'Computer Science',
+//     address: 'Chitkara University',
+//     student: 'DataScience',
+//     grade: 'A'
+//   }
+// ]
